@@ -23,6 +23,9 @@ dir.create(funcpath)
 buildReferenceData(path_to_working_directory = '.', use_force = FALSE, install_suggested_packages = TRUE)  
 path_to_reference_data = "./Tax4Fun2_ReferenceData_v2"  
 
+### Or download the reference database to your local computer
+Reference database download link: https://zenodo.org/records/10035668  
+
 ### Pre-installed blastn.exe software (optional)
 blast_bin = file.path(path_to_reference_data, "blast_bin/bin/blastn.exe")  
 res = system(command = paste(blast_bin, "-help"), intern = T)  
